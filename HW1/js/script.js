@@ -1,21 +1,21 @@
 'use strict'
 // console.log('Hello');
-let firstNumber = Math.round(Math.random()*100);
-let secondNumber = Math.round(Math.random()*100);
-console.log(`1st number = ${firstNumber}`);
-console.log(`2nd number = ${secondNumber}`);
+let x = Math.round(Math.random()*100);
+let y = Math.round(Math.random()*100);
+console.log(`1st number = ${x}`);
+console.log(`2nd number = ${y}`);
 
-let addition = firstNumber + secondNumber;
+let addition = x + y;
 console.log(addition);
 
-let subtraction = firstNumber - secondNumber;
+let subtraction = x - y;
 console.log(subtraction);
 
-let multiplicaation = firstNumber * secondNumber;
+let multiplicaation = x * y;
 console.log(multiplicaation);
 
-let devision = firstNumber / secondNumber;
+let devision = x / y;
 console.log(devision);
 
-let exponentiation = firstNumber ** (Math.round(Math.random()*10+1))
+let exponentiation = x ** (Math.round(Math.random()*10+1))
 console.log(exponentiation);
